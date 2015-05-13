@@ -8,6 +8,5 @@ logic-rich template engine based on nunjucks.
 returns the rendered string
 
 ```javascript
-junk.renderString('template', data);
-junk.renderString('filename', data);
+junk.render('template', data);
 ```
