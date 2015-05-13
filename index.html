@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JUNK</title>
+</head>
+<body>
+<div class="output">
+</div>
+
+<script id="list-template" type="text/x-handlebars-template">
+{% for item in list %}
+  <p>{{item.title}}</p>
+{% endfor %}
+</script>
+<button onclick="renderString()">文本渲染</button>
+<button onclick="renderFile()">文件渲染</button>
+
+<script src="https://cdn.rawgit.com/mozilla/nunjucks/master/browser/nunjucks.min.js"></script>
+<script src="junk.js"></script>
+<script src="test/test.js"></script>
+</body>
+</html>

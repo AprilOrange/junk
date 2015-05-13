@@ -1,0 +1,22 @@
+{
+  "name": "junk",
+  "main": "junk.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/AprilOrange/junk",
+  "authors": [
+    "April Orange <aprilorange.net@icloud.com>"
+  ],
+  "description": "logic-rich template engine based on nunjucks.",
+  "keywords": [
+    "template"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "index.html"
+  ]
+}
