@@ -6,7 +6,7 @@ var renderString = function () {
 }
 
 var renderFile = function () {
-  var listHTML = junk.render('test/page', {title: 'peak', slogan: 'to be no.1', list: list}); // $('#list-template').html()
+  var listHTML = junk.render('/junk/test/page', {title: 'peak', slogan: 'to be no.1', list: list}); // $('#list-template').html()
   document.querySelector('.output').innerHTML = listHTML;
 }
 
