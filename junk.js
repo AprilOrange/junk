@@ -5,4 +5,4 @@
     return nunjucks.renderString(string, data);
   }
   window.junk = junk;
-})(window, document)
+})(window, document);
